@@ -38,7 +38,7 @@ rp({uri: api_url, json: true, headers: {
 
 	for(var repo in repos){
 		repo = repos[repo];
-		var file_url = "https://raw.githubusercontent.com/"+repo.full_name+"/master/PROJECT.md";
+		var file_url = "https://raw.githubusercontent.com/"+repo.full_name+"/master/PROJECT.md?x="+Math.round(Math.random(0,1)*1000);
 		promises.push(rp({uri: file_url, json: false, timeout: 2000}).then(
 			saveFile.bind(null, repo.name)
 		).catch((error) => {
