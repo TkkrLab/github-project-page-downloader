@@ -1,0 +1,23 @@
+{
+  "name": "github-project-page-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkkrlab/github-project-page-downloader.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkkrlab/github-project-page-downloader/issues"
+  },
+  "homepage": "https://github.com/tkkrlab/github-project-page-downloader",
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
