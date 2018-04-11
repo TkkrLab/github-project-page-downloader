@@ -1,6 +1,11 @@
 ---
 title: "Github project page downloader"
-date: 2018-04-11T12:22:00+01:00
+date: 2018-04-11
+publishdate: 2018-04-11
+categories: [projects]
+draft: false
+keywords: [github,nodejs,project]
+aliases: [/projects/github-project-page-downloader/]
 ---
 
 # Github project page downloader
