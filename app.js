@@ -22,7 +22,7 @@ var api_url = "https://api.github.com/orgs/"+org+"/repos"
 
 function saveFile(filename, contents) {
 	console.log("saveFile", filename)
-	fs.writeFile('projects/'+filename+'.md', contents, (err) => {
+	fs.writeFile('projects/git-'+filename+'.md', contents, (err) => {
 		if (err) {
 			console.log("Error while saving file:", err);
 		} else {
